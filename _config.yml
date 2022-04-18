@@ -1,8 +1,42 @@
 title: Pascal van Eck
-email: pascal@pascalvaneck.com
+author: Pascal van Eck
 description: Pascal's personal website
-twitter_username: patveck
-github_username:  patveck
-theme: minima
+remote_theme: daattali/beautiful-jekyll
+
+navbar-links:
+  About Me: about-me
+  Blog: blog
+
+avatar: "/assets/img/avatar-icon.png"
+round-avatar: true
+
+social-network-links:
+  email: "pascal@pascalvaneck.com"
+  github: patveck
+  twitter: patveck
+  linkedin: pascalvaneck
+  google-scholar: "citations?user=PEnurM4AAAAJ&hl=en"
+
+url-pretty: "pascalvaneck.com"  
+
+date_format: "%B %-d, %Y"
+timezone: Europe/Amsterdam
+permalink: /:year-:month-:day-:title/
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+markdown: kramdown
+highlighter: rouge
+kmarkdown:
+  input: GFM
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
