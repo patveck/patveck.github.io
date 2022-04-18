@@ -4,7 +4,11 @@ description: Pascal's personal website
 remote_theme: daattali/beautiful-jekyll
 
 navbar-links:
+  Home: home
   About Me: about-me
+  Publications:
+    - Selected publications: /publications
+    - Thesis: /publications/thesis
   Blog: blog
 
 avatar: "/assets/img/avatar-icon.png"
@@ -18,6 +22,8 @@ social-network-links:
   google-scholar: "citations?user=PEnurM4AAAAJ&hl=en"
 
 url-pretty: "pascalvaneck.com"  
+
+google_analytics: UA-9630179-1
 
 date_format: "%B %-d, %Y"
 timezone: Europe/Amsterdam
