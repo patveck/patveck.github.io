@@ -1,7 +1,5 @@
 ---
-layout: page
-title: "Pascal van Eck's personal website"
-permalink: /home/
+layout: home
 ---
 Pascal van Eck
 
