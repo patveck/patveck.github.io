@@ -23,7 +23,7 @@ social-network-links:
 
 url-pretty: "pascalvaneck.com"  
 
-google_analytics: G-KR1XCXHDNX
+gtag: G-KR1XCXHDNX
 
 date_format: "%B %-d, %Y"
 timezone: Europe/Amsterdam
